@@ -48,10 +48,10 @@ $$
 则称事件A与事件B条件独立。
 ### 全概率公式
 对于事件$$A$$和一系列事件$$B_1,B_2 \dots B_n$$，事件$$A$$发生的概率
-$$
-P(A)&=P(A,B_1)+P(A,B_2)+ \dots + P(A, B_n)
+\begin{align}
+P(A)&=P(A,B_1)+P(A,B_2)+ \dots + P(A, B_n) \\
 &=P(A|B_1)P(B_1)+P(A|B_2)P(B_2)+ \dots + p(A, B_n)
-$$
+\end{align}
 
 
 
