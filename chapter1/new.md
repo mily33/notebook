@@ -20,7 +20,9 @@
 
 在变量连续的问题上同样存在这样的问题。
 
-Figure
+![](/assets/figure1.1.png)
+
+![](/assets/figure1.2.png)
 
 如果不考虑年龄的话，Cholesterol跟Exercise是正相关的，一旦考虑了年龄，二者就是负相关的。
 
@@ -44,14 +46,28 @@ Figure
 ### Conditionally Independent 条件独立
 
 条件独立是图网络一个很重要的概念。两个事件A和B，对另一事件C，如果满足
+
+
 $$
 P(A|B, C) = P(A|C),P(B|A, C)=P(B|C)
 $$
+
+
 则称事件A与事件B条件独立。
+
+### 贝叶斯公式
+
+
+$$
+P(A|B) = \frac{P(B|A)P(A)}{P(B)}
+$$
+
 
 ### 全概率公式
 
 对于事件$$A$$和一系列事件$$B_1,B_2 \dots B_n$$，事件$$A$$发生的概率
+
+
 $$
 \begin{align}
 P(A)&=P(A,B_1)+P(A,B_2)+ \dots + P(A, B_n) \\
@@ -59,9 +75,16 @@ P(A)&=P(A,B_1)+P(A,B_2)+ \dots + P(A, B_n) \\
 \end{align}
 $$
 
+
 ### 图
 
+![](/assets/figure2.2.png)
 
+##### 父节点、子节点、祖先节点、子孙节点：
 
+这几个概念可以按照日常生活中的称谓来理解，在上图上，存在$$X,Y,Z$$三个节点，$$X$$直接指向$$Y$$，所以$$X$$是$$Y$$的父节点，$$Y$$是$$X$$的子节点，同理，$$Y$$是$$Z$$的父节点，$$Z$$是$$Y$$的子节点；$$X$$是$$Y、Z$$的祖先节点，$$Y、Z$$是$$X$$的子孙节点。
 
+### Structural Causal Models (SCM)
 
+#### 建模因果假设：
+一个SCM模型包括两个
