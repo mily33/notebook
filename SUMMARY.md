@@ -4,7 +4,5 @@
 * [Causal Inference in Statistics读书笔记](chapter1.md)
   * [Chapter1: Premilinaries: Statistical and Causal Models](chapter1/chapter1-premilinaries.md)
   * [Chapter2: Graphical Models and Their Applications](chapter1/chapter2-graphical-models-and-their-applications.md)
-  * Chapter3:
-
-
+  * [Chapter3:](chapter1/chapter3.md)
 
