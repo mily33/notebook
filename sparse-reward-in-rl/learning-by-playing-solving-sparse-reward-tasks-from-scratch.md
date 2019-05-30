@@ -75,10 +75,12 @@ $$
 
 $$P_\mathcal{S}(\mathcal{T}_h|\mathcal{T}_{1:h-1}; \eta)$$ is approximated by Boltzman distribution, 
 $$
-P_\mathcal{S}(\mathcal{T}_h|\mathcal{T}_{1:h-1}; \eta) = \frac{\exp(\mathbb{E}_{P_\mathcal{S}}[R_\mathcal{M}(\mathcal{T}_{h:H})] / \eta)}{\sum_{\mathcal{\bar T}_{h:H}}\exp(\mathbb{E}_{P_\mathcal{S}}[R_\mathcal{M}(\mathcal{\bar T}_{h:H})] / \eta)}.
+P_\mathcal{S}(\mathcal{T}_h|\mathcal{T}_{1:h-1}; \eta) = \frac{\exp(\mathbb{E}_{P_\mathcal{S}}[R_\mathcal{M}(\mathcal{T}_{h:H})] / \eta)}{\sum_{\mathcal{\bar T}_{h:H}}\exp(\mathbb{E}_{P_\mathcal{S}}[R_\mathcal{M}(\mathcal{\bar T}_{h:H})] / \eta)}. \tag{6}
 $$
 
-
+$$
+\mathbb{E}_{P_\mathcal{S}}[R_\mathcal{M}(\mathcal{T}_{h:H})] \approx Q(\mathcal{T}_{1:h-1}, \mathcal{T}_h) = \frac{1}{M}\sum_{i=1}^M R_\mathcal{M}^\tau(\mathcal{T}_{h:H}) \tag{7}
+$$
 
 
 
