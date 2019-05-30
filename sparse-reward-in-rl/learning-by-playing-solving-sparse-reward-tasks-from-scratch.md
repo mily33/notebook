@@ -17,5 +17,5 @@ an MDP is defined as a tuple $$(\mathcal{S}, \mathcal{A}, \mathcal{R}, P, \gamma
 
 main task: $$\mathcal{M}$$
 
-auxiliary task: $$\mathcal{A} = \{\mathcal{A}_1, \dots, \mathcal{A}, \mathcal{T}\}$$
+auxiliary task: $$\mathcal{A} = \{\mathcal{A}_1, \dots, \mathcal{A}_K\}$$
 
