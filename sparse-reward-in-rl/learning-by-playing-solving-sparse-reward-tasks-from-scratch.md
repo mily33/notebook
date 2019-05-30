@@ -25,7 +25,7 @@ $$\mathcal{J} = \mathcal{M} \cup \mathcal{A}$$
 
 #### Learning the intentions
 
-$$
-\mathcal{L}(\theta) = \sum_{\mathcal{T} \in \mathcal{J}}\mathcal{L}(\theta; \mathcal{T}) \\
-\mathcal{L}(\theta; \mathcal{T}) = \sum_{\mathcal{B} \in \mathcal{J}} \mathbb{E}_{p(s|\mathcal{B})}[]
-$$
+$$\begin{split}
+\mathcal{L}(\theta) &= \sum_{\mathcal{T} \in \mathcal{J}}\mathcal{L}(\theta; \mathcal{T}) \\
+\mathcal{L}(\theta; \mathcal{T}) &= \sum_{\mathcal{B} \in \mathcal{J}} \mathbb{E}_{p(s|\mathcal{B})}[]
+\end{split} \tag{1}$$
