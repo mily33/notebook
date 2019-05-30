@@ -15,13 +15,13 @@
 
 #### Method
 
-an MDP is defined as a tuple $$(\mathcal{S}, \mathcal{A}, \mathcal{R}, P, \rho_0, \gamma)$$.
+an MDP is defined as a tuple $$(\mathbb{S}, \mathbb{A}, \mathbb{R}, \mathbb{P}, \rho_0, \gamma)$$.
 
 main task: $$\mathcal{M}$$
 
 auxiliary task: $$\mathcal{A} = \{\mathcal{A}_1, \dots, \mathcal{A}_K\}$$
 
-$$\mathcal{J} = \mathcal{M} \cup \mathcal{A}$$, $$\mathcal{M}$$ and $$\mathcal{A}$$ share $$\mathcal{S}, \mathcal{A}, P, \gamma$$.
+$$\mathcal{J} = \mathcal{M} \cup \mathcal{A}$$, $$\mathcal{M}$$ and $$\mathcal{A}$$ share $$\mathbb{S}, \mathbb{A}, \mathbb{P}, \gamma$$.
 
 #### Learning the intentions
 
@@ -51,14 +51,14 @@ $$
 
 
 $$
-\mathbb{E}_{\pi_\mathcal{T}}[R_\mathcal{T}(\tau_{t: \infty})] = \mathbb{E}_{\pi_\mathcal{T}}[\sum_{i=0}^\infty \gamma^i r_\mathcal{T}(s_{t+i}, a_{t+i})].
+\mathbb{E}_{\pi_\mathcal{T}}\left[R_\mathcal{T}(\tau_{t: \infty})\right] = \mathbb{E}_{\pi_\mathcal{T}}\left[\sum_{i=0}^\infty \gamma^i r_\mathcal{T}(s_{t+i}, a_{t+i})\right].
 $$
 
 
 #### Learning the scheduler $$\mathcal{S}$$
 
 $$
-\mathcal{L}(\mathcal{S}) = \mathbb{E}_{P_\mathcal{S}}[R_\mathcal{M}(\mathcal{T}_{0:H-1})|\mathcal{T}_h \sim P_\mathcal{S}(\mathcal{T}|\mathcal{T}_{0:{h-1}})] \tag{3}
+\mathcal{L}(\mathcal{S}) = \mathbb{E}_{P_\mathcal{S}}\left[R_\mathcal{M}(\mathcal{T}_{0:H-1})|\mathcal{T}_h \sim P_\mathcal{S}(\mathcal{T}|\mathcal{T}_{0:{h-1}})\right] \tag{3}
 $$
 
 $$
@@ -67,6 +67,10 @@ $$
 
 where $$a_t \sim \pi_\theta(\cdot|s_t, \mathcal{T}_h)$$.
 
+$$P_\mathcal{S}(\mathcal{T}_h|\mathcal{T}_{1:h-1}; \eta)$$ is approximated by Boltzman distribution, 
+$$
+P_\mathcal{S}(\mathcal{T}_h|\mathcal{T}_{1:h-1}; \eta) = \frac{\exp(\mathbb{E}_{P_\mathcal{S}}[R_\mathcal{M}(\mathcal{T}_{h:H})] / \eta)}{\sum_{\mathcal{\bar T}_{h:H}}\exp(\mathbb{E}_{P_\mathcal{S}}[R_\mathcal{M}(\mathcal{\bar T}_{h:H})] / \eta)}
+$$
 
 
 
