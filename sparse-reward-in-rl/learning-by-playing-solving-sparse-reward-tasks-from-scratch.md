@@ -62,8 +62,10 @@ $$
 $$
 
 $$
-R_\mathcal{M}(\mathcal{T}_{0:H-1}) = \sum_{h=0}^H \sum_{t=h\xi}
+R_\mathcal{M}(\mathcal{T}_{0:H-1}) = \sum_{h=0}^H \sum_{t=h\xi}^{(h+1)\xi-1}(\gamma^t r_\mathcal{M}(s_t, a_t)), \tag{4}
 $$
+
+where $$a_t \sim \pi_\theta(\cdot|s_t, \mathcal{T}_h)$$.
 
 
 
