@@ -13,9 +13,19 @@
 
 **Problem:**  all these methods bias the policy \(suboptimal\)
 
+#### Method
+
 an MDP is defined as a tuple $$(\mathcal{S}, \mathcal{A}, \mathcal{R}, P, \gamma)$$.
 
 main task: $$\mathcal{M}$$
 
 auxiliary task: $$\mathcal{A} = \{\mathcal{A}_1, \dots, \mathcal{A}_K\}$$
 
+$$\mathcal{J} = \mathcal{M} \cup \mathcal{A}$$
+
+#### Learning the intentions
+
+$$
+\mathcal{L}(\theta) = \sum_{\mathcal{T} \in \mathcal{J}}\mathcal{L}(\theta; \mathcal{T}) \\
+\mathcal{L}(\theta; \mathcal{T}) = \sum_{\mathcal{B} \in \mathcal{J}} \mathbb{E}_{p(s|\mathcal{B})}[]
+$$
