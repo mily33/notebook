@@ -6,4 +6,5 @@
 * [Sparse Reward in RL](sparse-reward-in-rl.md)
   * [Reward Shaping](sparse-reward-in-rl/reward-shaping.md)
   * [Learning by Playing-Solving Sparse Reward Tasks from Scratch](sparse-reward-in-rl/learning-by-playing-solving-sparse-reward-tasks-from-scratch.md)
+* [Boltzman  Distribution](boltzman-distribution.md)
 
