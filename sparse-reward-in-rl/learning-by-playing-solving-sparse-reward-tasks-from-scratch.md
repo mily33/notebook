@@ -82,12 +82,24 @@ $$
 \mathbb{E}_{P_\mathcal{S}}[R_\mathcal{M}(\mathcal{T}_{h:H})] \approx Q(\mathcal{T}_{1:h-1}, \mathcal{T}_h) = \frac{1}{M}\sum_{i=1}^M R_\mathcal{M}^\tau(\mathcal{T}_{h:H}) \tag{7}
 $$
 
-
+trajectory $$\tau$$ is samples under the scheduler $$\mathcal{S}$$.
 #### Policy evaluation
 
 retrace
+update as DQN does.
 
 
+#### Conclusion 
+
+需要利用从其他策略分布采样的样本，利用off-policy方法。
+Advantages:
+- The scheduler is non-parameterized which is estimated using Boltzmann distribution.
+- It's difficult for traditional reward shaping methods to assign a proper weight for each auxiliary task. This method uses a scheduler to decide the execution of auxiliary policies.
+- 
+
+Disadvantages:
+- We need to pre-design a set of reward functions.
+- The actor follows one policy at each timestep. Maybe the combination of multiple policies can perform better.
 
 
 
