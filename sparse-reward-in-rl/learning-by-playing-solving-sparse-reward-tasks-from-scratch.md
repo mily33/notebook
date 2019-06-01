@@ -1,4 +1,4 @@
-### Learning by Playing-Solving Sparse Reward Tasks from Scratch
+## Learning by Playing - Solving Sparse Reward Tasks from Scratch
 
 **key idea:** active scheduling and execution of auxiliary policies allows the agent to efficiently explore its environment.
 
@@ -13,13 +13,13 @@
 
 **Problem:**  all these methods bias the policy \(suboptimal\)
 
-#### Method
+### Method
 
 an MDP is defined as a tuple $$(\mathbb{S}, \mathbb{A}, \mathbb{R}, \mathbb{P}, \rho_0, \gamma)$$.
 
-main task: $$\mathcal{M}$$
+main task MDP: $$\mathcal{M}$$
 
-auxiliary task: $$\mathcal{A} = \{\mathcal{A}_1, \dots, \mathcal{A}_K\}$$
+auxiliary task MDP: $$\mathcal{A} = \{\mathcal{A}_1, \dots, \mathcal{A}_K\}$$
 
 $$\mathcal{J} = \mathcal{M} \cup \mathcal{A}$$, $$\mathcal{M}$$ and $$\mathcal{A}$$ share $$\mathbb{S}, \mathbb{A}, \mathbb{P}, \gamma$$.
 
