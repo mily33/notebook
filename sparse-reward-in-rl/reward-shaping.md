@@ -1,4 +1,5 @@
-# Reward Shaping
+ Reward Shaping
+Reward shaping is a commonly used technique to deal with sparse reward, where additional training rewards are used to guide the learning agent. 
 
 **Definition:**
 A shaping reward function $$F: S \times A \times S \rightarrow \mathbb{R}$$ is potential-based if there exists $$\phi: S \rightarrow \mathbb{R}$$ s.t.
