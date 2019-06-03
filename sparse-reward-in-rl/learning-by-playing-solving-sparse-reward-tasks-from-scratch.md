@@ -95,10 +95,10 @@ update as DQN does.
 Advantages:
 - The scheduler is non-parameterized which is estimated using Boltzmann distribution.
 - It's difficult for traditional reward shaping methods to assign a proper weight for each auxiliary task. This method uses a scheduler to decide the execution of auxiliary policies.
-- 
+- It can be applied to other reward shaping methods.
 
 Disadvantages:
-- We need to pre-design a set of reward functions.
+- We need to pre-design a set of reward functions. (X)
 - The actor follows one policy at each timestep. Maybe the combination of multiple policies can perform better.
 
 
