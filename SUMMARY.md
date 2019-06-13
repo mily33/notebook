@@ -10,4 +10,5 @@
 * [RL paper list](rl-paper-list.md)
   * [ICML 2019](icml-2019.md)
   * [ICLR 2018](iclr-2018.md)
+  * [NIPS 2018](nips2018.md)
 
