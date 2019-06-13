@@ -7,4 +7,7 @@
   * [Reward Shaping](sparse-reward-in-rl/reward-shaping.md)
   * [Learning by Playing-Solving Sparse Reward Tasks from Scratch](sparse-reward-in-rl/learning-by-playing-solving-sparse-reward-tasks-from-scratch.md)
 * [Boltzman  Distribution](boltzman-distribution.md)
+* [RL paper list](rl-paper-list.md)
+  * [ICML 2019](icml-2019.md)
+  * [ICLR 2018](iclr-2018.md)
 
