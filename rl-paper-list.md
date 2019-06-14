@@ -54,8 +54,9 @@
 ## meta-learning
 
 1. Riedmiller, Martin, et al. "**Learning by playing-solving sparse reward tasks from scratch**." arXiv preprint arXiv:1802.10567 (2018).
+2. Frans, Kevin, et al. "**Meta learning shared hierarchies**." arXiv preprint arXiv:1710.09767 (2017).
 
-## others
+## algorithm
 
 1. **TD or not TD: Analyzing the Role of Temporal Differencing in Deep Reinforcement Learning** (top 9%) -> re-examine the role of TD in modern deep RL, using specially designed environments that each control for a specific factor that affects performance, such as reward sparsity, reward delay or the perceptual complexity of the task.
 
@@ -65,4 +66,4 @@ a novel algorithm for solving reinforcement learning and bandit structured predi
 3. Racanière, Sébastien, et al. "**Imagination-augmented agents for deep reinforcement learning**." Advances in neural information processing systems. 2017. -> combine model-based and model free
 
 
-
+4. He, Frank S., et al. "Learning to play in a day: Faster deep reinforcement learning by optimality tightening." arXiv preprint arXiv:1611.01606 (2016).
