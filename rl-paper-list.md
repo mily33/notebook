@@ -1,3 +1,11 @@
+* reward shaping 
+
+* curriculum learning
+* sim-to-real
+* learning from demonstrations
+* learning with model guidance
+* inverse RL
+
 
 
 **Residual loss prediction: reinforcement learning with no incremental feedback (ICLR 2018)**
