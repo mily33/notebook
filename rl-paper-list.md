@@ -1,10 +1,16 @@
-## reward shaping 
+## reward shaping / encourage exploration
 
 1. Tang, Haoran, et al. "**# Exploration: A study of count-based exploration for deep reinforcement learning.**" Advances in neural information processing systems. 2017.
 
 2. Knox, W. Bradley, and Peter Stone. "**Combining manual feedback with subsequent MDP reward signals for reinforcement learning**." Proceedings of the 9th International Conference on Autonomous Agents and Multiagent Systems: volume 1-Volume 1. International Foundation for Autonomous Agents and Multiagent Systems, 2010.
 
 3. Achiam, Joshua, and Shankar Sastry. "**Surprise-based intrinsic motivation for deep reinforcement learning**." arXiv preprint arXiv:1703.01732 (2017).
+
+4.  Conti, Edoardo, et al. "**Improving exploration in evolution strategies for deep reinforcement learning via a population of novelty-seeking agents**." Advances in Neural Information Processing Systems. 2018.
+
+5. Fu, Justin, John Co-Reyes, and Sergey Levine. "**Ex2: Exploration with exemplar models for deep reinforcement learning**." Advances in Neural Information Processing Systems. 2017.
+
+6. Houthooft, Rein, et al. "**Curiosity-driven exploration in deep reinforcement learning via bayesian neural networks**." arXiv preprint arXiv:1605.09674 (2016).
 
 ## curriculum learning
 
@@ -35,6 +41,7 @@
 
 6. Rajeswaran, Aravind, et al. "**Learning complex dexterous manipulation with deep reinforcement learning and demonstrations**." arXiv preprint arXiv:1709.10087 (2017).
 
+7. Christiano, Paul F., et al. "**Deep reinforcement learning from human preferences**." Advances in Neural Information Processing Systems. 2017.
 
 ## pre-train without reward function
 
@@ -65,5 +72,7 @@ a novel algorithm for solving reinforcement learning and bandit structured predi
 
 3. Racanière, Sébastien, et al. "**Imagination-augmented agents for deep reinforcement learning**." Advances in neural information processing systems. 2017. -> combine model-based and model free
 
+4. He, Frank S., et al. "**Learning to play in a day: Faster deep reinforcement learning by optimality tightening**." arXiv preprint arXiv:1611.01606 (2016).
+-> combines the strength of deep Q-learning with a constrained optimization approach to tighten optimality and encourage faster reward propagation.
 
-4. He, Frank S., et al. "Learning to play in a day: Faster deep reinforcement learning by optimality tightening." arXiv preprint arXiv:1611.01606 (2016).
+5. 
