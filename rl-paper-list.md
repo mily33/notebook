@@ -1,4 +1,4 @@
-## reward shaping / encourage exploration
+## Reward shaping / Encourage exploration
 
 1. Tang, Haoran, et al. "**# Exploration: A study of count-based exploration for deep reinforcement learning.**" Advances in neural information processing systems. 2017.
 
@@ -18,7 +18,7 @@
 
 9. **※※** Kim, Hyoungseok, et al. "**EMI: Exploration with Mutual Information**." International Conference on Machine Learning. 2019.
 
-## curriculum learning
+## Curriculum learning
 
 1. Florensa, Carlos, et al. "**Reverse curriculum generation for reinforcement learning**." arXiv preprint arXiv:1707.05300 (2017).
 
@@ -55,13 +55,13 @@
 
 7. Christiano, Paul F., et al. "**Deep reinforcement learning from human preferences**." Advances in Neural Information Processing Systems. 2017.
 
-## pre-train without reward function
+## learn without a reward function
 
 1. Florensa, Carlos, Yan Duan, and Pieter Abbeel. "**Stochastic neural networks for hierarchical reinforcement learning**." arXiv preprint arXiv:1704.03012 (2017).
 
 2. Gupta, Abhishek, et al. "**Learning invariant feature spaces to transfer skills with reinforcement learning.**" arXiv preprint arXiv:1703.02949 (2017).
 
-
+3. **※※** Choi, Jongwook, et al. "**Contingency-aware exploration in reinforcement learning**." (2019).
 
 
 
@@ -81,7 +81,7 @@
 
 3. Gupta, Abhishek, et al. "**Meta-reinforcement learning of structured exploration strategies**." Advances in Neural Information Processing Systems. 2018.
 
-4. Zhou, Allan, et al. "Watch, Try, Learn: Meta-Learning from Demonstrations and Reward." arXiv preprint arXiv:1906.03352 (2019).
+4. Zhou, Allan, et al. "**Watch, Try, Learn: Meta-Learning from Demonstrations and Reward**." arXiv preprint arXiv:1906.03352 (2019).
 
 ## algorithm
 
