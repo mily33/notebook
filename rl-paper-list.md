@@ -10,15 +10,23 @@
 
 5. Fu, Justin, John Co-Reyes, and Sergey Levine. "**Ex2: Exploration with exemplar models for deep reinforcement learning**." Advances in Neural Information Processing Systems. 2017.
 
-6. Houthooft, Rein, et al. "**Curiosity-driven exploration in deep reinforcement learning via bayesian neural networks**." arXiv preprint arXiv:1605.09674 (2016).
+6. **※※** Houthooft, Rein, et al. "**Curiosity-driven exploration in deep reinforcement learning via bayesian neural networks**." arXiv preprint arXiv:1605.09674 (2016).
 
 7. Martin, Jarryd, et al. "**Count-based exploration in feature space for reinforcement learning**." arXiv preprint arXiv:1706.08090 (2017).
+
+8. **※※** Kim, Youngjin, et al. "**Curiosity-Bottleneck: Exploration by Distilling Task-Specific Novelty**." International Conference on Machine Learning. 2019.
+
+9. **※※** Kim, Hyoungseok, et al. "**EMI: Exploration with Mutual Information**." International Conference on Machine Learning. 2019.
 
 ## curriculum learning
 
 1. Florensa, Carlos, et al. "**Reverse curriculum generation for reinforcement learning**." arXiv preprint arXiv:1707.05300 (2017).
 
 2. Held, David, et al. "**Automatic goal generation for reinforcement learning agents**." arXiv preprint arXiv:1705.06366 (2017).
+
+3. Andrychowicz, Marcin, et al. "**Hindsight experience replay**." Advances in Neural Information Processing Systems. 2017.
+
+4. Ren, Zhizhou, et al. "**Exploration via Hindsight Goal Generation**." arXiv preprint arXiv:1906.04279 (2019).
 
 ## Hierachical reinforcement learning
 
@@ -72,6 +80,8 @@
 2. Frans, Kevin, et al. "**Meta learning shared hierarchies**." arXiv preprint arXiv:1710.09767 (2017).
 
 3. Gupta, Abhishek, et al. "**Meta-reinforcement learning of structured exploration strategies**." Advances in Neural Information Processing Systems. 2018.
+
+4. Zhou, Allan, et al. "Watch, Try, Learn: Meta-Learning from Demonstrations and Reward." arXiv preprint arXiv:1906.03352 (2019).
 
 ## algorithm
 
