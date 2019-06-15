@@ -16,6 +16,8 @@
 
 1. Florensa, Carlos, et al. "**Reverse curriculum generation for reinforcement learning**." arXiv preprint arXiv:1707.05300 (2017).
 
+2. Held, David, et al. "**Automatic goal generation for reinforcement learning agents**." arXiv preprint arXiv:1705.06366 (2017).
+
 ## Hierachical reinforcement learning
 
 1. Vezhnevets, Alexander Sasha, et al. "**Feudal networks for hierarchical reinforcement learning**." Proceedings of the 34th International Conference on Machine Learning-Volume 70. JMLR. org, 2017.
@@ -57,11 +59,17 @@
 
 1. Abbeel, Pieter, and Andrew Y. Ng. "**Apprenticeship learning via inverse reinforcement learning**." Proceedings of the twenty-first international conference on Machine learning. ACM, 2004.
 
+2. Zheng, Jiangchuan, Siyuan Liu, and Lionel M. Ni. "Robust bayesian inverse reinforcement learning with sparse behavior noise." Twenty-Eighth AAAI Conference on Artificial Intelligence. 2014.
+
+3. Suay, Halit Bener, et al. "**Learning from demonstration for shaping through inverse reinforcement learning**." Proceedings of the 2016 International Conference on Autonomous Agents & Multiagent Systems. International Foundation for Autonomous Agents and Multiagent Systems, 2016.
 
 ## meta-learning
 
 1. Riedmiller, Martin, et al. "**Learning by playing-solving sparse reward tasks from scratch**." arXiv preprint arXiv:1802.10567 (2018).
+
 2. Frans, Kevin, et al. "**Meta learning shared hierarchies**." arXiv preprint arXiv:1710.09767 (2017).
+
+3. Gupta, Abhishek, et al. "**Meta-reinforcement learning of structured exploration strategies**." Advances in Neural Information Processing Systems. 2018.
 
 ## algorithm
 
