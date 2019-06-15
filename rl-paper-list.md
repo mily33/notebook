@@ -12,6 +12,8 @@
 
 6. Houthooft, Rein, et al. "**Curiosity-driven exploration in deep reinforcement learning via bayesian neural networks**." arXiv preprint arXiv:1605.09674 (2016).
 
+7. Martin, Jarryd, et al. "**Count-based exploration in feature space for reinforcement learning**." arXiv preprint arXiv:1706.08090 (2017).
+
 ## curriculum learning
 
 1. Florensa, Carlos, et al. "**Reverse curriculum generation for reinforcement learning**." arXiv preprint arXiv:1707.05300 (2017).
@@ -37,7 +39,7 @@
 
 3. Nair, Ashvin, et al. "**Overcoming exploration in reinforcement learning with demonstrations**." 2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018.
 
-4. Brys, Tim, et al. "R**einforcement learning from demonstration through shaping**." Twenty-Fourth International Joint Conference on Artificial Intelligence. 2015.
+4. Brys, Tim, et al. "**Reinforcement learning from demonstration through shaping**." Twenty-Fourth International Joint Conference on Artificial Intelligence. 2015.
 
 5. **Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration** (top 13%) -> solve the sparse rewards problem on web UI tasks using exploration guided by demonstrations.
 
@@ -59,7 +61,7 @@
 
 1. Abbeel, Pieter, and Andrew Y. Ng. "**Apprenticeship learning via inverse reinforcement learning**." Proceedings of the twenty-first international conference on Machine learning. ACM, 2004.
 
-2. Zheng, Jiangchuan, Siyuan Liu, and Lionel M. Ni. "Robust bayesian inverse reinforcement learning with sparse behavior noise." Twenty-Eighth AAAI Conference on Artificial Intelligence. 2014.
+2. Zheng, Jiangchuan, Siyuan Liu, and Lionel M. Ni. "**Robust bayesian inverse reinforcement learning with sparse behavior noise**." Twenty-Eighth AAAI Conference on Artificial Intelligence. 2014.
 
 3. Suay, Halit Bener, et al. "**Learning from demonstration for shaping through inverse reinforcement learning**." Proceedings of the 2016 International Conference on Autonomous Agents & Multiagent Systems. International Foundation for Autonomous Agents and Multiagent Systems, 2016.
 
