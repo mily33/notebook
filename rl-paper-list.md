@@ -28,6 +28,8 @@
 
 4. Ren, Zhizhou, et al. "**Exploration via Hindsight Goal Generation**." arXiv preprint arXiv:1906.04279 (2019).
 
+5. Graves, Alex, et al. "Automated curriculum learning for neural networks." Proceedings of the 34th International Conference on Machine Learning-Volume 70. JMLR. org, 2017.
+
 ## Hierachical reinforcement learning
 
 1. Vezhnevets, Alexander Sasha, et al. "**Feudal networks for hierarchical reinforcement learning**." Proceedings of the 34th International Conference on Machine Learning-Volume 70. JMLR. org, 2017.
